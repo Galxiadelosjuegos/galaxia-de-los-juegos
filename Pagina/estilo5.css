@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(45,200,116);
+    
+    margin: px;
+
+}
+.vida{
+    max-width: 1200px;
+    margin: 200px;
+    padding: 20rem 20rem;
+    background-color: rgb(67, 65, 65);
+    border: 2px solid rgb(255, 255, 255);;
+    
+    color:rgb(255, 255, 255); ;
+    font-weight: bold;
+    flex-wrap: wrap;
+    display: flex;
+    
+    padding: 3rem;
+    
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   flex-direction:column ;
+}
+.vida p{
+    text-align: center;
+   
+}
+.vida h2{
+    text-align: inherit;
+}
+@media (max-width :900px){
+    .vida{
+        margin: 800px;
+    }
+}
+.barra{
+    display: flex;
+ justify-content:space-between;
+ min-height: 40px;
+ background-color: rgb(45, 42, 42);
+ align-items:center;
+ padding: 20px;
+ position: fixed;
+ left: 0;
+ top: 0;
+ right: 0;
+ position: fixed;
+ text-decoration: none;
+}
+.barra .logo h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.70em;
+    text-decoration: none;
+}
+.logo{
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+.logo img{
+    height: 60px;
+    width:60px ;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 50px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+nav a :hover{
+    color:rgb(197, 171, 52); 
+}
+@media (max-width :600px){
+  .barra{flex-direction: column;
+    text-align: center;
+    }
+}
+.barra nav a {
+    color: rgb(255, 255, 255);
+    -o-transition:all 500ms ease  ;
+    transition:all 500ms ease ;
+    -webkit-transition:all 500ms ease ;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.barra nav a:hover{
+    background:rgb(45,200,116);
+    border-radius: 120px;
+    padding: 20px;
+}
+*h2{
+    text-decoration: none;
+    font-size: 2.7rem;
+}
+.vida .imagen img {
+    max-width: 20rem;
+    max-height: 20rem;
+  border-radius: 20px;
+   float: right;
+}
